@@ -1,0 +1,498 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none outside none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clr {
+    clear: both;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+a {
+    color: #05559C;
+    text-decoration: none;
+}
+a:hover {
+    color: #38A8D6;
+}
+.main-content {
+    margin: 0 auto;
+    width: 960px;
+}
+body {
+    font-family: Arial;
+    font-size: 13px;
+}
+.wrapper {
+}
+#top-nav {
+    background-color: #05559C;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+}
+#top-nav a {
+    color: #FFFFFF;
+}
+#top-nav .mail-icon {
+    background: url("/javionline/templates/public/images/phone.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding-left: 18px;
+}
+#top-menu {
+    background: url("/javionline/templates/public/images/banner.jpg") repeat scroll center top rgba(0, 0, 0, 0);
+    height: 198px;
+}
+#top-menu ul {
+    float: right;
+    margin-top: 145px;
+}
+#top-menu ul li {
+    border-right: 1px solid #000000;
+    float: left;
+    padding: 0 17px;
+}
+#top-menu ul li.parent.current a {
+  background: none repeat scroll 0 0 #05559C;
+  border-radius: 6px;
+  color: #FFFFFF;
+  padding: 3px 14px 5px;
+}
+#top-menu ul li.parent.current a:hover {
+  color: #FFE4F3;
+}
+#top-menu ul li a {
+    color: #000000;
+    font-family: tahoma;
+    font-size: 17px;
+    text-shadow: 1px 1px #BBBBBB;
+}
+#top-menu ul li a:hover {
+    color: #05559C;
+}
+#top-menu ul li:last-child {
+    border-right: 0 none;
+    padding-right: 0;
+}
+#top-menu ul li:last-child a {
+}
+#main-body {
+    margin-top: 20px;
+}
+#main-body .body-left {
+    width: 230px;
+}
+#main-body .body-left .left-menu {
+    background-color: #05559C;
+}
+#main-body .body-left .left-menu ul li {
+    background: url("/javionline/templates/public/images/li-icon.png") no-repeat scroll 13px center rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #012D71;
+    border-top: 1px solid #0F81BA;
+    padding: 14px 0;
+}
+#main-body .body-left .left-menu ul li a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+#main-body .body-left .left-menu ul li a:hover {
+    color: #F9E41B;
+}
+#main-body .body-left .left-menu ul li:first-child {
+    border-top: medium none;
+}
+#main-body .body-left .left-menu ul li:last-child {
+    border-bottom: medium none;
+}
+#main-body .body-left .support {
+    background-color: #38A8D6;
+    height: 152px;
+    margin-top: 4px;
+    padding: 13px;
+}
+#main-body .body-left .support p {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+}
+#main-body .body-left .support .yahoo ul li {
+    background: url("/javionline/templates/public/images/yahoo-icon.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    padding-right: 20px;
+}
+#main-body .body-left .support .yahoo ul li a {
+    color: #FFFFFF;
+    padding-left: 28px;
+}
+#main-body .body-left .support .skype {
+    margin: 19px 0;
+}
+#main-body .body-left .support .skype ul li {
+    background: url("/javionline/templates/public/images/skype-icon.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    padding-right: 20px;
+}
+#main-body .body-left .support .skype ul li a {
+    color: #FFFFFF;
+    padding-left: 28px;
+}
+#main-body .body-left .support .orther {
+    margin-top: 27px;
+}
+#main-body .body-left .support .orther p {
+    color: #000000;
+    font-size: 12px;
+    line-height: 5px;
+    text-transform: none;
+}
+#main-body .body-left .support .orther p span {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+#main-body .body-left .advs img {
+    margin-top: 22px;
+    width: 230px;
+}
+#main-body .body-right {
+    width: 702px;
+}
+#main-body .body-right .news-block {
+    color: #333333;
+    margin-bottom: 30px;
+}
+#main-body .body-right .news-block h2.title-cat {
+    background: url("/javionline/templates/public/images/cat-title.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    border-bottom: 1px solid;
+    color: #05559C;
+    height: 19px;
+    line-height: 17px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 24px;
+    text-transform: uppercase;
+}
+#main-body .body-right .news-block .content-cat .item-left {
+    width: 300px;
+}
+#main-body .body-right .news-block .content-cat .item-left img {
+    height: 169px;
+    width: 300px;
+}
+#main-body .body-right .news-block .content-cat .item-left a.title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    margin-bottom: 4px;
+    margin-top: 12px;
+}
+#main-body .body-right .news-block .content-cat .item-left p {
+    font-size: 14px;
+    line-height: 20px;
+}
+#main-body .body-right .news-block .content-cat .item-right {
+    width: 373px;
+}
+#main-body .body-right .news-block .content-cat .item-right li {
+    padding-bottom: 14px;
+}
+#main-body .body-right .news-block .content-cat .item-right li a {
+}
+#main-body .body-right .news-block .content-cat .item-right li a.title {
+    font-size: 15px;
+    font-weight: bold;
+}
+#main-body .body-right .news-block .content-cat .item-right li p.cat-date {
+    margin: 5px 0;
+}
+#main-body .body-right .news-block .content-cat .item-right li p.cat-date a {
+    background: url("/javionline/templates/public/images/cat-icon.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #4AA8D6;
+    font-size: 11px;
+    padding-left: 20px;
+}
+#main-body .body-right .news-block .content-cat .item-right li p.cat-date span {
+    color: #C3C3C3;
+    font-size: 11px;
+    padding-left: 10px;
+}
+#main-body .body-right .news-block .content-cat .item-right li p.preview {
+    color: #393A3A;
+    line-height: 18px;
+}
+#footer {
+    background: url("/javionline/templates/public/images/bg-footer.png") repeat scroll left top rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    height: 52px;
+    line-height: 52px;
+}
+#footer p.fl {
+    font-size: 14px;
+}
+#footer p.fl span {
+    font-weight: bold;
+}
+#footer p.fl a {
+    color: #FFFFFF;
+}
+#footer .search {
+    margin-left: 63px;
+    width:244px;
+    height: 24px;
+}
+#footer .search input {
+    background: url("/javionline/templates/public/images/search-icon.png") no-repeat scroll 10px center #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #B0B0B0;
+    height: 24px;
+    padding-left: 30px;
+    width: 244px;
+}
+#footer .backtotop {
+  font-weight: bold;
+  line-height: 52px;
+}
+#footer .backtotop a {
+  background: url("/javionline/templates/public/images/backtotop.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  display: block;
+  height: 50px;
+  padding-left: 22px;
+  padding-right: 14px;
+}
+#footer .backtotop img {
+    float: right;
+    margin-left: 11px;
+    padding-top: 14px;
+}
+.content-cat1 .item-top {
+    background: none repeat scroll 0 0 #E2F4F6;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.content-cat1 .item-top .item-right-cat {
+    width: 373px;
+}
+.content-cat1 .item-top .item-right-cat a.title {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.content-cat1 .item-top .item-right-cat p.preview {
+    color: #393A3A;
+    line-height: 18px;
+}
+.content-cat1 .item-top .item-left img {
+    height: 169px;
+    width: 300px;
+}
+.content-cat1 .item {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #E2F4F6;
+	padding-bottom: 5px;
+}
+.content-cat1 .item .item-right-cat {
+    width: 472px;
+}
+.content-cat1 .item .item-right-cat a.title {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+}
+.content-cat1 .item .item-right-cat p.preview {
+    color: #393A3A;
+    line-height: 18px;
+}
+.content-cat1 .item .item-left img {
+    border: 1px solid #BBBBBB;
+    border-radius: 6px;
+    height: 130px;
+    padding: 3px;
+    width: 200px;
+}
+.news-block h1 {
+  color: #05559C;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.detail p.cat-date {
+    margin: 8px 0 18px;
+}
+.detail p.cat-date a {
+    background: url("/javionline/templates/public/images/cat-icon.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #4AA8D6;
+    font-size: 11px;
+    padding-left: 20px;
+}
+.detail p.cat-date span {
+    color: #C3C3C3;
+    font-size: 11px;
+    padding-left: 10px;
+}
+.content-detail {
+  font-size: 13px;
+  line-height: 18px;
+  text-align: justify;
+}
+.content-detail img {
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    max-width: 698px !important;
+}
+.orther-news .items {
+    margin-top: 10px;
+}
+.orther-news .items li {
+    float: left;
+    margin-right: 19px;
+    width: 160px;
+}
+.orther-news .items li:last-child {
+    margin-right: 0 !important;
+}
+.orther-news .items li a {
+    color: #000000;
+    display: block;
+    font-weight: bold;
+    line-height: 16px;
+    margin: 4px 0;
+    text-align: justify;
+}
+.orther-news .items li a:hover {
+    color: #05559C;
+}
+.orther-news .items li a img {
+    border-radius: 4px;
+    height: 120px;
+    width: 160px;
+}
+.comment-icon {
+    background: url("/javionline/templates/public/images/comment.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding-left: 27px;
+    padding-top: 14px;
+}
+.orther-icon {
+    background: url("/javionline/templates/public/images/news.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    padding-left: 27px;
+    padding-top: 14px;
+}
+.orther-news .title, .conment .title {
+    border-bottom: 2px solid #05559C;
+    color: #05559C;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0 10px;
+    padding-bottom: 3px;
+}
+.items-noimg {
+    border-top: 1px dotted #BBBBBB;
+    margin-top: 14px;
+    padding-bottom: 2px;
+}
+.orther-news .items-noimg ul {
+    color: #05559C;
+    list-style: disc inside none;
+    margin-top: 10px;
+}
+.orther-news .items-noimg li {
+    float: left;
+    line-height: 16px;
+    padding-bottom: 8px;
+    width: 44%;
+	margin-right: 30px;
+}
+.orther-news .items-noimg li:last-child {
+}
+.orther-news .items-noimg li a {
+    color: #000000;
+}
+.orther-news .items-noimg li a:hover {
+    color: #05559C;
+}
+
+.pager{margin:30px 0px; text-align: center;}
+#fcontact img {
+  border-radius: 0;
+  margin: 0 !important;
+}
+#fcontact .FieldRow {
+  margin-bottom: 15px;
+}
+#fcontact .FieldRow input {
+  border: 1px solid #05559C;
+  border-radius: 5px;
+  padding: 6px 0;
+  width: 379px;
+}
+#fcontact .FieldRow textarea{
+	border: 1px solid #05559C;
+  border-radius: 5px;
+}
+#fcontact .FieldRow label {
+  display: block;
+  margin-bottom: 4px;
+}
+.error{color:red;font-size: 11px;}
+#captcha_word {
+  border-radius: 0 !important;
+  width: 159px !important;
+}
+.button_submit {
+  border: medium none !important;
+  color: #FFFFFF;
+  font-family: tahoma;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px !important;
+  width: 133px !important;
+  background: #05559C;
+  cursor: pointer;
+  margin-right:20px;
+  margin-top:30px;
+}
+.button_submit:hover {
+  background: #38A8D6;
+  cursor: pointer;
+}
+.FieldRow .mbv{}
+.FromBox h4{margin:10px 0px;margin-bottom:40px;}
+.gioithieu{
+	font-size: 14px; line-height: 20px;
+}
+.active {
+  background-color: #bbb !important;
+}
